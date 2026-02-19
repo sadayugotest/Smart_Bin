@@ -6,19 +6,20 @@
 
 ## 📋 สารบัญ
 
-- [ภาพรวมระบบ](#ภาพรวมระบบ)
-- [ฟีเจอร์หลัก](#ฟีเจอร์หลัก)
-- [ประเภทขยะที่รองรับ](#ประเภทขยะที่รองรับ)
-- [Hardware ที่ใช้](#hardware-ที่ใช้)
+- [ภาพรวมระบบ](#overview)
+- [ฟีเจอร์หลัก](#features)
+- [ประเภทขยะที่รองรับ](#waste-types)
+- [Hardware ที่ใช้](#hardware)
 - [GPIO Pin Mapping](#gpio-pin-mapping)
-- [การติดตั้ง](#การติดตั้ง)
-- [โครงสร้างโปรเจกต์](#โครงสร้างโปรเจกต์)
-- [การใช้งาน](#การใช้งาน)
-- [Logic การตรวจจับ](#logic-การตรวจจับ)
+- [การติดตั้ง](#installation)
+- [โครงสร้างโปรเจกต์](#project-structure)
+- [การใช้งาน](#usage)
+- [Logic การตรวจจับ](#detection-logic)
 - [GUI Interface](#gui-interface)
 
 ---
 
+<a id="overview"></a>
 ## 🔍 ภาพรวมระบบ
 
 ```
@@ -45,6 +46,7 @@
 
 ---
 
+<a id="features"></a>
 ## ✨ ฟีเจอร์หลัก
 
 | ฟีเจอร์ | รายละเอียด |
@@ -59,6 +61,7 @@
 
 ---
 
+<a id="waste-types"></a>
 ## 🗂️ ประเภทขยะที่รองรับ
 
 | Class ที่ YOLO ตรวจจับ | ความหมาย | ถังที่เปิด | สี UI |
@@ -73,6 +76,7 @@
 
 ---
 
+<a id="hardware"></a>
 ## 🔧 Hardware ที่ใช้
 
 - **Raspberry Pi** (รองรับ RPi.GPIO)
@@ -83,6 +87,7 @@
 
 ---
 
+<a id="gpio-pin-mapping"></a>
 ## 🗺️ GPIO Pin Mapping
 
 | GPIO (BCM) | ชื่อตัวแปร | หน้าที่ |
@@ -99,6 +104,7 @@
 
 ---
 
+<a id="installation"></a>
 ## 📦 การติดตั้ง
 
 ### 1. Clone / ดาวน์โหลดโปรเจกต์
@@ -140,6 +146,7 @@ ls /dev/video*
 
 ---
 
+<a id="project-structure"></a>
 ## 📁 โครงสร้างโปรเจกต์
 
 ```
@@ -156,6 +163,7 @@ DX smart bin/
 
 ---
 
+<a id="usage"></a>
 ## ▶️ การใช้งาน
 
 ### รันโปรแกรม
@@ -183,6 +191,7 @@ python main1.py
 
 ---
 
+<a id="detection-logic"></a>
 ## 🧠 Logic การตรวจจับ
 
 ```
@@ -211,6 +220,7 @@ python main1.py
 
 ---
 
+<a id="gui-interface"></a>
 ## 🖥️ GUI Interface
 
 | สถานะ | สีพื้นหลัง | ข้อความ |
