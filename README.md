@@ -110,7 +110,7 @@
 ### 1. Clone / ดาวน์โหลดโปรเจกต์
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/sadayugotest/Small_Group.git>
 cd "DX smart bin"
 ```
 
